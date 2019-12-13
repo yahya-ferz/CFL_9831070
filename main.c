@@ -20,13 +20,10 @@ void PrintGame(char a[][3])
     {
         for (i = 0; i <3 ; ++i)
         {
-
-
-
             if(a[i][j]>48&&a[i][j]<58)
-                printf("-\t");
+                printf("-|");
             else
-                printf("%c\t",a[i][j]);
+                printf("%c|",a[i][j]);
         }
         printf("\n");
     }
